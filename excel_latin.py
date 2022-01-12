@@ -1,7 +1,7 @@
 import pandas as pd
 
 # excel reading command(your excel document should be in same folder with code)
-df = pd.read_excel("tobolsk.xlsx")
+df = pd.read_excel("write_file_name_here.xlsx")
 
 for column in df.columns:
     # Changing russian letters to latin
